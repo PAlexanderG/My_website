@@ -1,12 +1,15 @@
 p {
     color: #eeeeee;
 }
+h2 {
+  text-align: center;
+}
 .links {
     float: right;
 }
-span {
-    color: #eeeeee;
-    float: right;
+nav {
+  text-align: center;
+  font-size: x-large;
 }
 footer {
     box-sizing: border-box;

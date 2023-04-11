@@ -19,12 +19,13 @@ p {
 .name {
     float: right;
 }
-
-element.style {
-}
 section:nth-of-type(odd) > img {
     float: left;
     margin: 0 24px 24px 0;
+}
+nav {
+  text-align: center;
+  font-size: x-large;
 }
 footer {
     box-sizing: border-box;
@@ -52,7 +53,7 @@ footer {
     margin-right: 0;
   }
   
-  header, footer {
+ footer {
     background: #f8f8f8;
   }
   @media screen and (max-width:300px) {
@@ -64,7 +65,7 @@ footer {
   }
   @media screen and (max-width:1500px) {
     .second-query {
-      background-color: rgb(224, 235, 255);
+      background-color: rgba(224, 235, 255, 0.499);
     }
 
   }
