@@ -16,6 +16,10 @@ span {
 p {
     color: rgb(255, 255, 255);
 }
+h2 {
+  text-align: center;
+  border: solid white;
+}
 .name {
     float: right;
 }
@@ -58,14 +62,15 @@ footer {
   }
   @media screen and (max-width:300px) {
     .first-query {
-      background-color: rgb(255, 235, 177);
+      background-color: rgb(255, 243, 208);
+      margin: 0px;
 
     }
 
   }
   @media screen and (max-width:1500px) {
     .second-query {
-      background-color: rgba(224, 235, 255, 0.499);
+      background-color: rgb(255, 255, 255);
     }
 
   }
