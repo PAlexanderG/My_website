@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <script src="./myscript.js" defer></script>
 </head>
 <body style="background-color: rgb(231, 155, 23);">
     <section>
@@ -12,11 +13,12 @@
         <a style="color:rgb(183, 86, 1); text-decoration: none; margin: 10px;"  href="index.html">Home</a>
         <a style="color:rgb(183, 86, 1); text-decoration: none; margin: 10px;"href="about.html">About</a>
         <a style="color:rgb(183, 86, 1); text-decoration: none; margin: 10px;"  href="portfolio.html">Portfolio</a>
-        <span style="color:rgb(255, 255, 255); text-decoration: none; margin: 0px; float: right;;">Pedro Garcia</span>
+        <span style="color:rgb(255, 255, 255); text-decoration: none; margin: 0px; float: right;
+        font-size: x-large;">Garcia's Portfolio</span>
     </nav>
 </section>
 <section style="border: solid white 3px; margin: 25px;">
-    <form action="Submit.html" style="margin: 10px;">
+    <form  id="form" action="Submit.html" style="margin: 10px;">
         <label style="color:rgb(255, 255, 255); text-decoration: none;" for="fname">First name</label>
         <input type="text" name="" id="" style="padding: 2px 2px;"><br>
 
@@ -29,7 +31,7 @@
         <label style="color:rgb(255, 255, 255); text-decoration: none;"  for="message">Message</label>
         <input type="text" name="" id=""><br>
         
-        <input type="submit" style="padding: 2px 2px;">
+        <input id="submit" type="submit" style="padding: 2px 2px;">
 
     </form>
 </section>

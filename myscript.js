@@ -5,10 +5,10 @@
 // 1. Declaration (var, let, const)
 // 2. Assigment (= assignment operator)
 
-let firstName = "Garcia!"; //string
+let firstName = "Garcia!"; //string many letters
 let age = 24; //number
 
-console.log("Hello", firstName)//In "" for adding text after a coma
+console.log("Hello", firstName)//In "Hello" for adding text after a coma
 console.log(age);// Pop out in the console panel
 
 function sayHello() {
@@ -20,11 +20,12 @@ function sayHello() {
   const scriptURL = 'https://httpbin.org/post'
 
   form.addEventListener('submit', e => {
-    submitButton.disabled = true
     e.preventDefault()
+    submitButton.disabled = true
     let requestBody = new FormData(form)
     fetch(scriptURL, { method: 'POST', body: requestBody})
       .then(response => {
+        console.log("sayHello")
          alert('Success!', response)
          submitButton.disabled = false
         })
